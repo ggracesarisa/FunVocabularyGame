@@ -6,6 +6,7 @@ import sqlite3
 
 root = Tk()
 root.title("Fun Vocabulary Game")
+root.iconbitmap("icon.ico")
 # full screen
 root.geometry("{}x{}+0+0". format(root.winfo_screenwidth(), root.winfo_screenheight()))
 
